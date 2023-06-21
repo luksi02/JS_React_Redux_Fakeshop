@@ -1,0 +1,64 @@
+{
+
+  "name": "es6-react",
+
+  "version": "2.1.0",
+
+  "scripts": {
+
+    "start": "webpack serve --mode development",
+
+    "build": "webpack"
+
+  },
+
+  "devDependencies": {
+
+    "@babel/core": "7.5.5",
+
+    "@babel/plugin-proposal-class-properties": "7.10.1",
+
+    "@babel/plugin-transform-react-jsx": "^7.22.5",
+
+    "@babel/preset-env": "7.5.5",
+
+    "@babel/preset-react": "7.7.0",
+
+    "babel-loader": "8.2.5",
+
+    "process": "0.11.10",
+
+    "prop-types": "^15.8.1",
+
+    "webpack": "5.72.1",
+
+    "webpack-cli": "4.10.0",
+
+    "webpack-dev-server": "4.9.0"
+
+  },
+
+  "dependencies": {
+
+    "@reduxjs/toolkit": "^1.9.3",
+
+    "axios": "^1.4.0",
+
+    "react": "18.1.0",
+
+    "react-dom": "18.1.0",
+
+    "react-redux": "^8.0.5",
+
+    "react-router-dom": "^6.9.0",
+
+    "redux": "^4.2.1",
+
+    "redux-logger": "^3.0.6",
+
+    "reselect": "^4.1.7"
+
+  }
+
+}
+
